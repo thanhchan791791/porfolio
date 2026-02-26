@@ -1,156 +1,410 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Portfolio</title>
-	<!-- css files -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+<html lang="en">
 
-	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-	<meta name="author" content="Hassan Ali">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
-		.github-button{
-			color: #00d1b2;
-			justify-content: center;
-			display: flex;
-			/* justify-content: center; */
-			/* align-items: center; */
-			/* height: 100vh; */
-		}
-	</style>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - MyResume Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
-	<body>
-		<!-- Navbar -->
-		<nav class="nav container void-background">
-			<!-- This "nav-menu" is hidden on mobile -->
-			<!-- Add the modifier "is-active" to display it on mobile -->
-			<!-- <div class="nav-left">
-				<a href="http://medium.com/@hassanhelfi/" class="nav-item">
-					<span class="icon">
-						<i class="fa fa-medium"></i>
-					</span>
-				</a>
-				<a href="http://github.com/helfi92" class="nav-item">
-					<span class="icon">
-						<i class="fa fa-github"></i>
-					</span>
-				</a>
-				<a href="https://twitter.com/hassanhelfi" class="nav-item">
-					<span class="icon">
-						<i class="fa fa-twitter"></i>
-					</span>
-				</a>				
-			</div> -->
+<body class="index-page">
 
-			<div class="nav-right nav-menu">
-				<a class="nav-item" href="#about">About</a>
-				<a class="nav-item" href="#projects">Projects</a>
-				<a class="nav-item" href="#social">Social</a>
-			</div>
+  <header id="header" class="header d-flex flex-column justify-content-center">
 
-			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-			<span class="nav-toggle">
-				<span></span>
-				<span></span>
-				<span></span>
-			</span>
-		</nav>
-				
-		<!-- About Me -->
-		<section id="about" class="section section-1">
-			<div class="container has-text-centered">
-				<!-- Source: https://flic.kr/p/pAZBNK -->
-				<img class="avatar" src="assets/img/avt.jpeg">
-			</div>
-			<div class="container"></br>
-				<p class="intro">
-					
-Welcome to the world of programming!
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-I'm Tran Vu Ngoc Thanh, always ready to tackle new challenges and find ways to solve them with code. Creativity and patience are two essential elements in my work. Let's explore and build amazing applications together!
-Email: nq2017.tranvungocthanh251202@gmail.com
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i><span>Giới thiệu</span></a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i><span>Thành tựu</span></a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i><span>kết quả đạt được</span></a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i><span>Liên hệ</span></a></li>
+      </ul>
+    </nav>
 
-Phone: +84 909650816
-				</p>
-				<a href="https://github.com/thanhchan791791" class="github-button"><span class="icon">
-					<i class="fa fa-github"></i>
-				</span></a>
-			</div>
-		</section>
-		
-		<!-- Projects -->
-		<section  id="projects" class="section section-2">
-			<div class="container">
-				<div class="has-text-centered">
-					<h3 class="title is-3">Projects</h3>
-				</div>
-				
-				<div class="columns is-multiline is-desktop">
-					<!-- Project 1 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<img src="assets/img/project-1.jpg" alt="Image">
-									</figure>
-								</div>
-								<div>			
-									<p>
-										They don’t want us to eat. I told you all this before, when you have a swimming pool, do not use chlorine, use salt water, the healing, salt water is the healing.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-					<!-- Project 2 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<img src="assets/img/project-2.jpg" alt="Image">
-									</figure>
-								</div>
-								<div>			
-									<p>
-										Bless up. Another one. How’s business? Boomin. Don’t ever play yourself. Life is what you make it, so let’s make it.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+  </header>
 
-		<!-- Social -->
-		<section id="social" class="section section-3">
-			<div class="container">
-				<div class="has-text-centered">					
-					<h3 class="title is-3">Let's Socialize</h3>
-				</div>
-				<div class="social-container columns">
-					<div class="column is-6 has-text-centered">
-						<a target="_blank" href="https://ca.linkedin.com/in/hassan-ali-6132468a"><img class="" src="assets/img/linkedin.png"></a>
-					</div>
-					<div class="column is-6 has-text-centered">
-						<a target="_blank" href="https://www.facebook.com/profile.php?id=100008452505986"><img class="" src="assets/img/facebook.png"></a>
-					</div>
-				</div>
-			</div>
-		</section>	
-		
-		<!-- Footer -->
-		<section class="section-4 has-text-centered container">
-			<a href="http://www.hassanali.me/about">Hassan Ali</a>
-		</section>
-		
-		<!-- Scripts  -->
-		<script src="controller.js"></script>		
-	</body>	
+  <main class="main">
+
+    <!-- Hero Section -->
+   <section id="hero" class="hero section light-background">
+
+  <img src="assets/img/back.png" alt="">
+
+  <div class="container" data-aos="zoom-out">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
+        <h2>Trần Vũ Ngọc Thành</h2>
+        <p>Tôi là <span class="typed" data-typed-items="Content Creator">Content Creator</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <div class="social-links">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!-- /Hero Section -->
+
+<!-- Giới thiệu -->
+<section id="about" class="about section">
+
+  <!-- Tiêu đề -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Giới thiệu</h2>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-4">
+        <img src="assets/img/avt.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-8 content">
+        <h2>Content Creator</h2>
+        
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>Ngày sinh:</strong> <span>25/12/2002</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Số điện thoại:</strong> <span>0909 650 816</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Thành phố:</strong> <span>Thành phố Hồ Chí Minh, Việt Nam</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>Tuổi:</strong> <span>24</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>nq2017.tranvungocthanh251202@gmail.com</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Freelancer:</strong> <span>Sẵn sàng nhận dự án</span></li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- /Giới thiệu -->
+
+  
+
+   
+
+   <!-- Những gì tôi đã làm Section -->
+<section id="resume" class="resume section">
+
+  <!-- Tiêu đề -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Những gì tôi đã làm</h2>
+    <p>Dự án thực tế tôi trực tiếp xây dựng và phát triển nội dung TikTok cho quán cà phê thú cưng.</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">📍 Dự án: CherryPet Coffee</h3>
+
+        <div class="resume-item pb-0">
+          <ul>
+            <li>Xây dựng 2 kênh TikTok từ 0</li>
+            <li>Lên ý tưởng & kịch bản video ngắn</li>
+            <li>Quay dựng video bằng iPhone & CapCut</li>
+            <li>Bắt trend & tạo concept riêng (Random chó cho khách)</li>
+            <li>Thiết kế mini game & hiệu ứng gây bất ngờ</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Cột hình ảnh minh họa -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="resume-title">Hình ảnh minh họa</h3>
+
+        <div class="resume-item text-center">
+          <img src="assets/img/b1.jpg" class="img-fluid rounded mb-3" alt="CherryPet TikTok 1">
+          <img src="assets/img/b2.png" class="img-fluid rounded mb-3" alt="CherryPet TikTok 2">
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+   <!-- Portfolio Section -->
+<section id="portfolio" class="portfolio section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Kết quả đạt được</h2>
+    <p>Những con số và thành quả tôi đạt được trong quá trình xây dựng và phát triển kênh TikTok cho CherryPet Coffee.</p>
+  </div>
+
+  <div class="container">
+
+    <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+      <!-- Tổng View -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-item text-center p-4 shadow rounded">
+          <h3>Tổng triệu views đạt được</h3>
+          <p class="fs-4 fw-bold">__hơn 50_</p>
+        </div>
+      </div>
+
+      <!-- Video cao nhất -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-item text-center p-4 shadow rounded">
+          <h3>Video cao nhất</h3>
+          <p class="fs-4 fw-bold">__gần 12tr_views</p>
+        </div>
+      </div>
+
+     
+
+      <!-- Tăng follower -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-item text-center p-4 shadow rounded">
+          <h3>Tăng follower</h3>
+          <p class="fs-4 fw-bold">0 → ___150k___</p>
+        </div>
+      </div>
+
+      <!-- Video trăm nghìn view -->
+      <div class="col-lg-4 col-md-6">
+        <div class="portfolio-item text-center p-4 shadow rounded">
+          <h3>Video trăm nghìn view</h3>
+          <p class="fs-4 fw-bold">Nhiều video đạt 100.000+ view</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Portfolio Section -->
+
+   <!-- Kỹ năng chuyên môn Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Kỹ năng chuyên môn</h2>
+    <p>Những kỹ năng tôi sử dụng để xây dựng và phát triển kênh TikTok, giúp thương hiệu thu hút người xem, tăng tương tác và tạo dấu ấn riêng trên nền tảng video ngắn.</p>
+  </div>
+
+  <div class="container">
+    <div class="row gy-4">
+
+      <!-- Concept -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative p-4 shadow rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-lightbulb fs-2"></i>
+          </div>
+          <h3>Lên concept & định hướng kênh TikTok</h3>
+          <p>
+            Xây dựng ý tưởng nội dung phù hợp với thương hiệu và tệp khách hàng mục tiêu. 
+            Định hình phong cách riêng cho kênh, tạo điểm khác biệt so với đối thủ. 
+            Lên kế hoạch nội dung theo tuần/tháng để đảm bảo phát triển ổn định và lâu dài.
+          </p>
+        </div>
+      </div>
+
+      <!-- Script -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative p-4 shadow rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-pencil-square fs-2"></i>
+          </div>
+          <h3>Viết kịch bản viral 15–30 giây</h3>
+          <p>
+            Tạo kịch bản ngắn gọn, thu hút ngay từ 3 giây đầu tiên. 
+            Xây dựng cao trào và yếu tố bất ngờ để giữ chân người xem. 
+            Tối ưu nội dung theo hành vi người dùng TikTok, tăng tỷ lệ xem hết video và tương tác.
+          </p>
+        </div>
+      </div>
+
+      <!-- Quay dựng -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative p-4 shadow rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-camera-video fs-2"></i>
+          </div>
+          <h3>Quay & dựng video chuyên nghiệp</h3>
+          <p>
+            Quay video bằng iPhone với góc máy sáng tạo, bắt trọn khoảnh khắc tự nhiên. 
+            Dựng video bằng CapCut với nhịp cắt nhanh, hình ảnh rõ nét và âm thanh phù hợp trend. 
+            Đảm bảo video mượt mà, chuyên nghiệp và tối ưu cho nền tảng TikTok.
+          </p>
+        </div>
+      </div>
+
+      <!-- Hiệu ứng -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative p-4 shadow rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-stars fs-2"></i>
+          </div>
+          <h3>Hiệu ứng sáng tạo & transition mượt</h3>
+          <p>
+            Ứng dụng hiệu ứng random, chuyển cảnh mượt mà và animation bắt mắt 
+            để tạo sự bất ngờ và tăng trải nghiệm người xem. 
+            Biến những nội dung đơn giản thành video hấp dẫn và dễ lan truyền.
+          </p>
+        </div>
+      </div>
+
+      <!-- Hook -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative p-4 shadow rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-graph-up fs-2"></i>
+          </div>
+          <h3>Tối ưu Hook 3 giây đầu</h3>
+          <p>
+            Phân tích hành vi người xem để tạo mở đầu gây tò mò, kích thích sự chú ý. 
+            Tối ưu nhịp video và nội dung nhằm tăng retention rate. 
+            Áp dụng chiến lược giữ chân người xem để tăng khả năng video được đề xuất.
+          </p>
+        </div>
+      </div>
+
+      <!-- Phân tích -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item position-relative p-4 shadow rounded">
+          <div class="icon mb-3">
+            <i class="bi bi-bar-chart-line fs-2"></i>
+          </div>
+          <h3>Phân tích & tối ưu hiệu suất nội dung</h3>
+          <p>
+            Theo dõi số liệu view, tương tác và tỷ lệ giữ chân người xem. 
+            Phân tích hiệu quả từng video để cải thiện chiến lược nội dung. 
+            Điều chỉnh concept và cách triển khai để tăng trưởng bền vững.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- /Kỹ năng chuyên môn Section -->
+   
+   <!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Liên Hệ</h2>
+    <p>Tôi luôn sẵn sàng kết nối, hợp tác và trao đổi về các dự án mới. Đừng ngần ngại liên hệ với tôi qua thông tin bên dưới.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row justify-content-center">
+
+      <div class="col-lg-6">
+
+        <div class="info-item d-flex align-items-center mb-4" data-aos="fade-up" data-aos-delay="200">
+          <i class="bi bi-person-circle flex-shrink-0 me-3"></i>
+          <div>
+            <h4 class="mb-1">Họ và Tên</h4>
+            <p class="mb-0">Trần Vũ Ngọc Thành</p>
+          </div>
+        </div>
+
+        <div class="info-item d-flex align-items-center mb-4" data-aos="fade-up" data-aos-delay="300">
+          <i class="bi bi-telephone-fill flex-shrink-0 me-3"></i>
+          <div>
+            <h4 class="mb-1">Số Điện Thoại</h4>
+            <p class="mb-0">0909650816</p>
+          </div>
+        </div>
+
+        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+          <i class="bi bi-envelope-fill flex-shrink-0 me-3"></i>
+          <div>
+            <h4 class="mb-1">Email</h4>
+            <p class="mb-0">nq2017.tranvungocthanh251202@gmail.com</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <h3 class="sitename">Trần Vũ Ngọc Thành</h3>
+      
+      
+       
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
